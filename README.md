@@ -11,6 +11,9 @@ Significa **Hyper Text Markup Language**, que en castellano sería algo como Len
 
 Con HTML crearemos *documentos estructurados* mediante etiquetas que el navegador puede interpretar.
 
+### un poquito de historia
+
+
 El documento principal de un sitio o aplicación de debe llamar **index.html**. Todo junto y en minúsculas.
 
 ### Doctype
@@ -110,3 +113,29 @@ Esto es muy importante de comprender ya que luego manejaremos las etiquetas pens
     ### No ordenadas
     
 ```
+
+### Etiquetas no semánticas
+
+Estas etiquetas no tienen un significado propio y sirven como contenedor para agrupar a otras
+
+## div 
+El div es para separar y agrupar contenido.
+
+```html
+<div>
+  <p>Hola <span>mundo 
+
+La idea detras de los elemetos no semánticos es utilizar CCS para darles estilo.
+
+Más adelante, en este modulo veremos lo frecuente de sus uso con el marco de trabajo.
+
+## Formularios
+Contiene controles interactivos para ingresar información
+
+``` html
+
+<form action="/search" method="get">
+
+  </form>
+
+  Cuando enviamos los formularios mediante el metodo get los parametros ingresado quedan 
